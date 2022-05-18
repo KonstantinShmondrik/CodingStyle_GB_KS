@@ -21,7 +21,7 @@
 
   ### Basic example:
   ```swift
-  import CodingStyle
+  import SwiftUI
   import CodingStyle_GB_KS
 
   struct CodingStyleExampleView: View
