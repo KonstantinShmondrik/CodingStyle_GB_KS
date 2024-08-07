@@ -26,8 +26,8 @@ public struct CodingStyle_GB_KS {
         self.style = style
     }
 
-    public func printForTest(from text: String) {
-        print(text)
+    public func printForTest() {
+        print(wrappedValue)
     }
 
     //  MARK: - Сonverting string to a given style
