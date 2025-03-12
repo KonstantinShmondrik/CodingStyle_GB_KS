@@ -25,7 +25,11 @@ public struct CodingStyle_GB_KS {
         self.value = wrappedValue
         self.style = style
     }
-    
+
+    public func printForTest() {
+        print(wrappedValue)
+    }
+
     //  MARK: - Сonverting string to a given style
     
     private func placesSpacesBeforeCapitalLetters() -> String {
